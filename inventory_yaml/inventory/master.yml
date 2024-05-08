@@ -1,0 +1,9 @@
+---
+master:
+  hosts:
+    master-1:
+      ansible_host: 172.16.1.1
+      ansible_port: 8933
+    master-2:
+      ansible_host: 172.16.1.2
+      ansible_port: 8933      
